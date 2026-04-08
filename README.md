@@ -13,7 +13,7 @@ This repository documents my hands-on journey learning Linux system administrati
 - Document everything like a professional
 
 ## 📅 Progress
-- Day 1: Completed
+- Day 1: Completed - [Day 1: Linux Basics](day-01/)
 - Day 2: In Progress
 
 ## 📂 Structure
