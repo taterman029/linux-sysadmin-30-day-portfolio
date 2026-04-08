@@ -14,7 +14,7 @@ This repository documents my hands-on journey learning Linux system administrati
 
 ## 📅 Progress
 - Day 1: Completed - [Day 1: Linux Basics](day-01/)
-- Day 2: In Progress
+- Day 2: Users & Permissions - In progress
 
 ## 📂 Structure
 - `/day-01` → System setup & basic commands
