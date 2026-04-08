@@ -1,34 +1,40 @@
-# Linux Sysadmin 30-Day Portfolio
+# 🐧 Linux Sysadmin 30-Day Training Portfolio
 
-This repository documents my hands-on journey learning Linux system administration using a home lab.
+Welcome to my Linux System Administration learning journey.
 
-## 🧪 Lab Environment
-- Host: Fedora (Virt-Manager)
-- VM: Ubuntu Server 24.04
-- Access: SSH
+This repository documents my **30-day hands-on training path** to build real-world Linux sysadmin skills using a home lab environment.
+
+---
 
 ## 🎯 Goals
-- Become job-ready for a junior Linux sysadmin role
-- Build real-world system administration skills
-- Document everything like a professional
 
-## 📅 Progress
-- Day 1: Completed - [Day 1: Linux Basics](day-01/)
-- Day 2: Users & Permissions - In progress
+- Build practical Linux system administration skills
+- Gain hands-on experience with real-world scenarios
+- Learn how to manage users, permissions, services, and security
+- Develop automation and scripting skills
+- Create a strong portfolio for IT/Sysadmin roles
 
-## 📂 Structure
-- `/day-01` → System setup & basic commands
-- `/day-02` → Users & permissions
-- `/projects` → Real-world scripts and labs
+---
 
-## 🚀 Projects (Planned)
-- SSH Hardening Lab
-- Backup Automation Script
-- System Monitoring Script
+## 🧰 Lab Environment
 
-## 🧠 Skills Being Developed
-- Linux CLI
-- Bash scripting
-- Systemd & services
-- Networking basics
-- Security fundamentals
+- **Host Machine:** Personal computer
+- **Virtualization:** Virt-Manager
+- **OS:** Ubuntu Server (VM)
+- **Access Method:** SSH / Terminal
+
+---
+
+## 📁 Repository Structure
+
+```bash
+linux-sysadmin-30-day-portfolio/
+├── day-01/
+│   ├── notes.md
+│   ├── proof.md
+│   └── projects/
+│       └── screenshot.png
+├── day-02/
+│   └── (in progress)
+├── LICENSE
+└── README.md
