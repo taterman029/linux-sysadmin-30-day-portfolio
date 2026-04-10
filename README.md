@@ -1,81 +1,72 @@
-# Linux Sysadmin 30-Day Portfolio
+Linux Sysadmin 30-Day Portfolio
 
-A hands-on Linux system administration training project built in a home lab environment using Ubuntu Server and Virtual Machines.
+This repository is a structured 30-day hands-on Linux system administration training program built in a home lab environment using Ubuntu Server and virtualization tools.
 
-This repository documents my daily progress as I develop real-world Linux administration skills through practical command-line work, troubleshooting, and system configuration.
+The goal is to develop real-world Linux administration skills through daily practice, troubleshooting, and documentation.
 
 ---
 
-## 🎯 Goals
+🎯 Objectives
 
 - Build strong Linux command-line proficiency
 - Understand system administration fundamentals
+- Practice real-world troubleshooting scenarios
 - Learn user, permission, and service management
-- Develop troubleshooting and debugging skills
-- Simulate real-world sysadmin tasks in a home lab
+- Develop automation and scripting skills
 
 ---
 
-## 🧠 Skills Being Developed
+🧪 Lab Environment
 
-- Linux filesystem navigation and command usage
-- User and group management
-- File permissions and ownership (chmod, chown)
-- Process and system monitoring (upcoming)
-- Service management with systemd (upcoming)
-- Networking fundamentals (upcoming)
-- Bash scripting (upcoming)
-
----
-
-## 📅 Progress Tracker
-
-### ✅ Completed
-- Day 1 – Linux Basics (navigation, file operations, system info)
-- Day 2 – Users & Permissions (users, sudo, chmod, chown)
-
-### 🚧 In Progress
-- Day 3 – Processes & System Monitoring
-
----
-
-## 🧪 Lab Environment
-
-- Virtualization: Virt-Manager
 - OS: Ubuntu Server 24.04
+- Virtualization: Virt-Manager
 - Shell: Bash
-- Environment: Local home lab VM
+- Environment: Local isolated home lab
 
 ---
 
-## 📌 Structure
+📅 Progress Overview
 
-Each day includes:
-- `commands.sh` → commands practiced
-- `notes.md` → conceptual understanding
+Phase 1 – Foundations
+- Day 1: Linux Basics
+- Day 2: Users & Permissions
+
+Phase 2 – System Control
+- Day 3: Process Management (upcoming)
+- Day 4: System Monitoring
+- Day 5: Services (systemd)
+
+Phase 3 – Networking & Security
+- (coming soon)
+
+Phase 4 – Automation
+- (coming soon)
+
+---
+
+📂 Structure
+
+Each day contains:
+
+- `commands.sh` → commands executed in lab
+- `notes.md` → concepts and explanations
 - `proof.md` → real terminal output evidence
+- `real-world-use.md` → how it applies in production systems
 
 ---
 
-## 🚀 Purpose
+🚀 Purpose
 
 This project demonstrates my ability to:
-- Work in Linux environments confidently
-- Understand system-level administration concepts
-- Document technical work clearly and professionally
-- Troubleshoot real issues in a controlled lab environment
+
+- Operate Linux systems confidently
+- Troubleshoot system-level issues
+- Manage users, permissions, and processes
+- Document technical workflows clearly
+- Build production-relevant sysadmin skills
 
 ---
 
-## 📈 Roadmap
+📈 Status
 
-Day 1–5: Fundamentals  
-Day 6–10: Users, permissions, processes  
-Day 11–20: Networking, services, logs  
-Day 21–30: Automation + final projects
-
----
-
-## 📫 Status
-
-Actively updating daily as part of a 30-day Linux sysadmin training plan.
+Actively updated daily as part of structured Linux sysadmin training.
