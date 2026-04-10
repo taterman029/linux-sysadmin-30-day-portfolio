@@ -1,14 +1,17 @@
 # Create user
 sudo adduser testuser
 
-# Add to sudo group
+# Check groups
+groups testuser
+
+# Add user to sudo group
 sudo usermod -aG sudo testuser
 
 # Switch user
 su - testuser
 
-# Check groups
-groups testuser
+# Verify sudo access
+sudo whoami
 
 # Check permissions
 ls -l
@@ -18,5 +21,5 @@ chmod 755 script.sh
 chmod 444 myfile.txt
 
 # Change ownership
-sudo chown testuser myfile.txt
+sudo chown labuser myfile.txt
 sudo chown testuser:testuser myfile.txt
