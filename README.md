@@ -18,6 +18,8 @@ This repository documents my hands-on learning using a **home lab environment** 
   - File management (`cp`, `mv`, `rm`)
   - System information (`df -h`, `free -h`)
   - Terminal fundamentals
+###✅ Completed
+Day 2 – Users & Permissions
 
 ### 🚧 In Progress
 - **Day 2 – Users & Permissions**
