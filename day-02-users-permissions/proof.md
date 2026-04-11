@@ -1,20 +1,25 @@
-# Day 2 – Proof (Users & Permissions)
+Create user
+$ sudo adduser devuser
+Adding user `devuser' ...
 
-## User Creation
-```bash
-sudo adduser testuser
+Check user
+$ id devuser
+uid=1001(devuser) gid=1001(devuser) groups=1001(devuser),1002(devgroup)
 
-sudo whoami
-root
+Check directory permissions
+$ ls -ld /projects
+drwxrwx--- 2 root devgroup 4096 Apr 10 12:00 /projects
 
-groups testuser
-testuser : testuser sudo
+Test access
+$ su - devuser
+$ cd /projects
+$ touch testfile
 
-ls -l myfile.txt
--r--r--r-- 1 labuser labuser 0 Apr 10 myfile.txt
+Verify file creation
+$ ls
+testfile
 
-sudo chown testuser:testuser myfile.txt
-ls -l myfile.txt
-
-nano myfile.txt
+Verify restricted access (another user)
+$ su - otheruser
+$ cd /projects
 Permission denied

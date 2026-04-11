@@ -3,45 +3,45 @@ Notes – Day 02
 User Management
 
 * `adduser username`
-  Creates a new user.
+  Creates a new user and sets up a home directory.
 
-* `passwd username`
-  Sets or changes a user's password.
+* `usermod -aG group user`
+  Adds a user to a group without removing existing group memberships.
 
-* `deluser username`
-  Removes a user.
+* `id username`
+  Displays user ID (UID), group ID (GID), and group memberships.
 
 ---
 
-Groups
+Group Management
 
 * `groupadd groupname`
   Creates a new group.
-
-* `usermod -aG groupname username`
-  Adds a user to a group.
 
 ---
 
 Ownership
 
 * `chown user:group file`
-  Changes file ownership.
+  Changes the owner and group of a file or directory.
 
 ---
 
 Permissions
 
-* `chmod 755 file`
-  Sets file permissions.
+* `chmod 770 directory`
+  Grants full access (read, write, execute) to owner and group, no access to others.
 
-Permission Breakdown:
+Permission Values:
 
-* Read (r) = 4
-* Write (w) = 2
-* Execute (x) = 1
+* 7 = read + write + execute (rwx)
+* 6 = read + write (rw-)
+* 5 = read + execute (r-x)
+* 0 = no permissions (---)
 
-Example:
+---
 
-* 755 = Owner (7 = rwx), Group (5 = r-x), Others (5 = r-x)
+Key Concept
+
+Linux permissions are designed to enforce the principle of least privilege, ensuring users only have access to what they need.
 

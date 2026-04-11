@@ -1,32 +1,25 @@
-# Create a new user
-sudo adduser testuser
+#!/bin/bash
 
-# Check user groups
-groups testuser
+# Create user
+sudo adduser devuser
 
-# Add user to sudo group
-sudo usermod -aG sudo testuser
+# Create group
+sudo groupadd devgroup
 
-# Switch to user
-su - testuser
+# Add user to group
+sudo usermod -aG devgroup devuser
 
-# Verify sudo access
-sudo whoami
-
-# Check file permissions
-ls -l
-
-# Create test file
-touch myfile.txt
-
-# Change permissions (symbolic)
-chmod +x script.sh
-chmod -w myfile.txt
-
-# Change permissions (numeric)
-chmod 755 script.sh
-chmod 444 myfile.txt
+# Create project directory
+sudo mkdir /projects
 
 # Change ownership
-sudo chown labuser myfile.txt
-sudo chown testuser:testuser myfile.txt
+sudo chown root:devgroup /projects
+
+# Set permissions
+sudo chmod 770 /projects
+
+# Verify user
+id devuser
+
+# Verify permissions
+ls -ld /projects
