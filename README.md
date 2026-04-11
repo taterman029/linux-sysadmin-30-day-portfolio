@@ -1,72 +1,75 @@
 Linux Sysadmin 30-Day Portfolio
 
-This repository is a structured 30-day hands-on Linux system administration training program built in a home lab environment using Ubuntu Server and virtualization tools.
+About Me
 
-The goal is to develop real-world Linux administration skills through daily practice, troubleshooting, and documentation.
+Aspiring Linux System Administrator building hands-on experience through a structured 30-day lab environment.
 
----
-
-🎯 Objectives
-
-- Build strong Linux command-line proficiency
-- Understand system administration fundamentals
-- Practice real-world troubleshooting scenarios
-- Learn user, permission, and service management
-- Develop automation and scripting skills
+This portfolio documents real-world Linux tasks, system administration concepts, and practical projects performed on a home lab using Ubuntu Server.
 
 ---
 
-🧪 Lab Environment
+Skills Demonstrated
 
-- OS: Ubuntu Server 24.04
-- Virtualization: Virt-Manager
-- Shell: Bash
-- Environment: Local isolated home lab
-
----
-
-📅 Progress Overview
-
-Phase 1 – Foundations
-- Day 1: Linux Basics
-- Day 2: Users & Permissions
-
-Phase 2 – System Control
-- Day 3: Process Management (upcoming)
-- Day 4: System Monitoring
-- Day 5: Services (systemd)
-
-Phase 3 – Networking & Security
-- (coming soon)
-
-Phase 4 – Automation
-- (coming soon)
+* Linux system navigation & file management
+* User & group administration
+* File permissions and ownership
+* Process monitoring and system performance
+* Bash scripting & automation (in progress)
+* System services (systemctl)
+* Disk and memory management
 
 ---
 
-📂 Structure
+Lab Environment
+
+* Hypervisor: Virt-Manager
+* OS: Ubuntu Server 24.04
+* Access: SSH + local terminal
+* Environment: Self-hosted home lab
+
+---
+
+Project Structure
 
 Each day contains:
 
-- `commands.sh` → commands executed in lab
-- `notes.md` → concepts and explanations
-- `proof.md` → real terminal output evidence
-- `real-world-use.md` → how it applies in production systems
+* `README.md` → Summary of tasks and learning
+* `commands.sh` → Commands used
+* `notes.md` → Detailed explanations
+* `proof.md` → Output/screenshots (when applicable)
 
 ---
 
-🚀 Purpose
+Progress Tracker
 
-This project demonstrates my ability to:
+✅ Completed
 
-- Operate Linux systems confidently
-- Troubleshoot system-level issues
-- Manage users, permissions, and processes
-- Document technical workflows clearly
-- Build production-relevant sysadmin skills
+* Day 01 – Linux Basics
+* Day 02 – Users & Permissions
+
+In Progress
+
+* Day 03 – Process Management
 
 ---
 
-📈 Status
+Projects
 
-Actively updated daily as part of structured Linux sysadmin training.
+* Backup Script (rsync-based) *(in progress)*
+* User Management Tasks
+* Permission Hardening Exercises
+
+---
+
+Goal
+
+To gain real-world Linux system administration skills and build a job-ready portfolio that demonstrates hands-on ability.
+
+---
+
+Notes
+
+This is a **learning-focused portfolio**, but all work is performed in a real Linux environment with practical application.
+
+---
+

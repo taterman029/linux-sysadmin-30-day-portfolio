@@ -1,0 +1,15 @@
+#!/bin/bash
+
+SOURCE="/home"
+DEST="/backup"
+LOG="/var/log/backup.log"
+DATE=$(date +%Y-%m-%d_%H-%M)
+
+echo "=== Backup started: $(date) ===" >> "$LOG"
+
+rsync -a --delete \
+  --exclude=".cache" \
+  --exclude="Downloads" \
+  "$SOURCE/" "$DEST/$DATE/"
+
+echo "=== Backup completed: $(date) ===" >> "$LOG"

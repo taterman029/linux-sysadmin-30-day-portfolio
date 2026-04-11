@@ -1,36 +1,47 @@
-Day 2 – Users & Permissions
+Notes – Day 02
 
-## Overview
-This day focused on Linux user management, group permissions, file permissions, and ownership control.
+User Management
 
-These are core system administration skills used to secure Linux systems.
+* `adduser username`
+  Creates a new user.
 
----
+* `passwd username`
+  Sets or changes a user's password.
 
-## Users
-
-Linux users represent individual accounts on a system.
-Each user has:
-- Username
-- UID (User ID)
-- Home directory
+* `deluser username`
+  Removes a user.
 
 ---
 
-## Groups
+Groups
 
-Groups are used to manage multiple users with shared permissions.
+* `groupadd groupname`
+  Creates a new group.
+
+* `usermod -aG groupname username`
+  Adds a user to a group.
+
+---
+
+Ownership
+
+* `chown user:group file`
+  Changes file ownership.
+
+---
+
+Permissions
+
+* `chmod 755 file`
+  Sets file permissions.
+
+Permission Breakdown:
+
+* Read (r) = 4
+* Write (w) = 2
+* Execute (x) = 1
 
 Example:
-- sudo group → allows administrative privileges
 
----
+* 755 = Owner (7 = rwx), Group (5 = r-x), Others (5 = r-x)
 
-## Sudo Access
-
-- Grants temporary root privileges
-- Controlled via group membership
-- Requires re-login after changes
-
-Command:
-sudo usermod -aG sudo username
